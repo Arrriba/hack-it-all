@@ -1,0 +1,74 @@
+{
+    "Romania": [
+        {
+            "score": 2.0,
+            "category": "COVID"
+        },
+        {
+            "score": 3.0,
+            "category": "POLITICS"
+        },
+        {
+            "score": 1.0,
+            "category": "AIR QUALITY"
+        },
+        {
+            "score": 4.0,
+            "category": "TRAVEL"
+        }
+    ],
+    "Italy": [
+        {
+            "score": 5.0,
+            "category": "COVID"
+        },
+        {
+            "score": 3.0,
+            "category": "POLITICS"
+        },
+        {
+            "score": 2.0,
+            "category": "AIR QUALITY"
+        },
+        {
+            "score": 5.0,
+            "category": "TRAVEL"
+        }
+    ],
+    "France": [
+        {
+            "score": 3.0,
+            "category": "COVID"
+        },
+        {
+            "score": 3.0,
+            "category": "POLITICS"
+        },
+        {
+            "score": 2.0,
+            "category": "AIR QUALITY"
+        },
+        {
+            "score": 5.0,
+            "category": "TRAVEL"
+        }
+    ],
+    "Spain": [
+        {
+            "score": 1.0,
+            "category": "COVID"
+        },
+        {
+            "score": 4.0,
+            "category": "POLITICS"
+        },
+        {
+            "score": 2.0,
+            "category": "AIR QUALITY"
+        },
+        {
+            "score": 5.0,
+            "category": "TRAVEL"
+        }
+    ]
+}

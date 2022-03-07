@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Lucida Console", "Courier New", monospace !important;
+  /* font-family: 'Trocchi', serif !important; 
+  font-size: 45px; font-weight: normal; 
+  line-height: 48px;  */
+  /* font-family: 'Lato', sans-serif !important; font-size: 54px; font-weight: 300; line-height: 58px; */
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* How is the vaccination going? */
+/* How many covid cases have been in the last 24 hours */
+/* vaccination rate */
+
+/*
+- site-ul este facut de la 0 in React
+- globul pamantesc -> aplicatia este scalabila (click pe orice tara -> informatii)
+- timpul nu ne-a permis am preferat sa alegem cateva tari pe care sa exemplificam si testam modelele noastre
+- globul se roteste spre tara respectiva
+
+- de unde vin toate aceste informatii? din google news scraping
+
+- scor extras pe baza a 4 mari categorii de interes obtinut din sentiment analysis
+- practic, luam stirile din tara respectiva, scrise in limba nativa, le traducem in engleza si, prin machine learning si mai precis, sentyment analysis, extragem un scor pentru fiecare topic
+
+- spre exemplu, in romania situatia la air quality este destul de proasta pentru ca recent am fost dati in judecata de catre comisia europeana pentru poluare
+- sau, in italia scorul covid este mult mai mare deoarece din stiri au reiesit sentimente pozitive, in sensul in care rata de vaccinare a crescut, iar stirile au un output general pozitiv
+
+- haideti sa vedem totusi mai multe detalii pentru fiecare categorie
+
+
+- graficele sunt cu rosu daca numarul cazurilor a crescut si verde daca au scazut
+
+- daca simtim nevoia de mai multe explicatii, putem pune o intrebare legata de covid, iar modelul nostru de machine learning va intelege intrebarea si ne va raspunde
+
+
+- in continuare, putem vedea stirile extrase si traduse cu un model de machine learning, si anume un transformer, care sunt de asemenea pe categorii si care au asociate si link-urile pentru mai multe informatii
+
+- mai mult, in caz avem si alte curiozitati despre noutatile din tara respectiva, cum se intampla, putem pune o intrebare iar un alt model va traduce intrebarea si va extrage stirile conform intrebarii noastre
+ */

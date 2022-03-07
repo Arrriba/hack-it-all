@@ -1,0 +1,119 @@
+html {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* system-ui, sans-serif, cursive; */
+    font-size: 1.25rem;
+  }
+  
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+  /* body {
+    margin: 0;
+    padding: 0 1.5rem;
+  } */
+  
+  svg {
+    /* display: inline-block; */
+    vertical-align: middle;
+  }
+  body {
+    margin: 0;
+  }
+  
+  /* .btn {
+    display: inline-block;
+    background: #ff5722;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: inherit;
+    line-height: 0.7;
+    padding: 0.3rem 0.8rem;
+    border: 0;
+    margin: 0.5rem;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+  } */
+  
+  .btn:hover,
+  .btn:focus {
+    background: #cfd8dc;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background: #cfd8dc;
+  }
+    
+.hovvv:hover{
+    /* margin-left:10px;
+    margin-right:10px; */
+
+    cursor: pointer;
+    /* background: #cfd8dc; */
+    /* text-align:"center";
+     border-radius:25px; margin-top:10px; max-width:"600px"; padding-top:15px */
+}
+.hovvv {
+    text-align:"center";
+     border-radius:25px; margin-top:15px; max-width:"600px"; margin-top:15px; margin-bottom: 15px;
+      /* padding:10px; */
+      height: 60px;
+      justify-content: center;
+      align-content: center;
+     background: #cfd8dc;
+
+    }
+
+    .hovvv-click {
+        text-align:"center";
+         border-radius:25px; margin-top:15px; max-width:"600px"; margin-top:15px; margin-bottom: 15px;
+          /* padding:10px; */
+          height: 60px;
+          justify-content: center;
+          align-content: center;
+         /* background: #cfd8dc; */
+    
+        }
+
+.hovvv-news:hover{
+    margin: 10px;
+    
+    /* margin-left:15px;
+    margin-right:15px; */
+    /* margin:20px; */
+    /* padding:20px; */
+    /* margin:20; */
+    cursor: pointer;
+    /* background: #cfd8dc; */
+    /* text-align:"center";
+        border-radius:25px; margin-top:10px; max-width:"600px"; padding-top:15px */
+}
+.hovvv-news {
+    text-align:"center";
+        border-radius:25px; 
+        margin-top:10px; 
+        /* margin-top:15px;  */
+        margin-bottom: 10px;
+        /* width: 100%; */
+        height: 60px;
+        justify-content: center;
+        align-content: center;
+        background: #cfd8dc; 
+   
+    }
+
+    /* .input-group-lg>.form-select, .input-group-lg>.input-group-text {
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        width: auto;
+        border-radius: 15px;
+    } */
+
+    .input-group>.form-control, .input-group>.form-select {
+        position: relative;
+        flex: 1 1 auto;
+        width: 1%;
+        min-width: 0;
+        width: 800px;
+        border-radius: 15px;
+    }
