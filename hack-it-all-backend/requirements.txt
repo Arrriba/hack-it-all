@@ -1,0 +1,8 @@
+
+pandas
+flask
+flask_cors
+scikit-image
+GoogleNews
+transformers
+sentencepiece
